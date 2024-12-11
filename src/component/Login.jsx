@@ -8,6 +8,7 @@ function Login() {
 
   return (
     <div style={{ margin: "20px", fontFamily: "Arial, sans-serif" }}>
+      <div className="loginn">Login page </div>
       <form onSubmit={handleSubmit}>
         <label htmlFor="fname">First Name</label>
         <input

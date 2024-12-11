@@ -361,3 +361,12 @@ p {
   padding: 2rem;
   background-color: #f4f4f4; /* Optional: add a background for better visibility */
 }
+.loginn{
+  text-transform: uppercase;
+ text-align: center;
+ margin: 50px;
+ font-weight: bold;
+ font-size: large;
+ 
+ 
+}

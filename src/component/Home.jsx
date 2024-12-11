@@ -31,18 +31,26 @@ function Home() {
         </nav>
       </div>
       <img src="/images/home3.jpg" alt="" className="im" />
+      <section>
       <div className="nn">
 <About/>
       </div>
+      </section>
+      <section>
       <div className="nm">
 <ContactPage/>
       </div>
+      </section>
+      <section>
       <div className="nmm">
 <Service/>
       </div>
+      </section>
+      <section>
       <div className="nmmm">
 <Login/>
       </div>
+      </section>
     </div>
   );
 }

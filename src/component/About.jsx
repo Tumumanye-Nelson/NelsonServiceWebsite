@@ -1,3 +1,6 @@
+import ContactPage from "./Contact"
+import Service from "./Service"
+import Login from "./Login"
 function About() {
     return (
       <div className="about">
@@ -11,7 +14,24 @@ function About() {
 <marquee  direction="" className="pl">We help you grow your sales and leads through optimisations to enable you reach your targeted audience
 </marquee>
 </div>
-
+<section>
+  
+</section>
+<section>
+      <div className="nm">
+<ContactPage/>
+      </div>
+      </section>
+      <section>
+      <div className="nmm">
+<Service/>
+      </div>
+      </section>
+      <section>
+      <div className="nmmm">
+<Login/>
+      </div>
+      </section>
       </div>
     )
   }
