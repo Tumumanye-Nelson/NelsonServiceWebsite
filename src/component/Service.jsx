@@ -1,4 +1,3 @@
-import Login from "./Login";
 
 const services = [
   { title: "Web Development", description: "Custom websites built with modern technologies tailored to your business needs." },
@@ -20,9 +19,7 @@ const Service = () => {
           </div>
         ))}
       </div>
-      <div className="login-section">
-        <Login />
-      </div>
+     
     </div>
   );
 };

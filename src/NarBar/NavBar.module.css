@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   color: red;
+  gap: 2rem;
   position: sticky; /* Makes it sticky */
   top: 0; /* Sticks it to the top of the viewport */
   z-index: 1000; /* Ensures it stays above other elements */

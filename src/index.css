@@ -27,16 +27,16 @@ textarea {
   height: 100px;
 }
 .amin{
-  text-decoration-style: solid;
-  background-color: white;
   width: 700px;
-
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
-  box-shadow: 1px 1px 5px 1px #13131354;
-  border: 1px solid white;
-  transition: cubic-bezier();
-  font-style: italic;
+  margin: 40px 40px 10px 40px; /* Merged redundant margin declarations */
+  color: white; /* Verify this works well against green */
+  max-width: 600px; /* Added unit for validity */
+  padding: 20px; /* Adjusted to a positive value */
+  border-top-right-radius: 0%; /* Retained as is */
+  animation-delay: 1s;
+  font-weight: bolder;
+  font-size: larger;
+  background-color: purple;
 }
 /* Button styling */
 button {
@@ -119,18 +119,19 @@ a{
   cursor: pointer;
   color:blue;
 }
-.ppp{
- background-color: yellow;
- width: 700px;
- margin: -10px;
-color:darkgreen;
-max-width: 600;
-margin: 40px 40px;
-padding: -90px;
-border-top-right-radius: 0%;
-margin-top: 10px;
-animation-delay: 1s;
+.ppp {
+  width: 700px;
+  margin: 40px 40px 10px 40px; /* Merged redundant margin declarations */
+  color: white; /* Verify this works well against green */
+  max-width: 600px; /* Added unit for validity */
+  padding: 20px; /* Adjusted to a positive value */
+  border-top-right-radius: 0%; /* Retained as is */
+  animation-delay: 1s;
+  font-weight: bolder;
+  font-size: larger;
+  background-color: #007bff;
 }
+
 .im{
   width: 250px;
   position: absolute;
@@ -162,21 +163,32 @@ animation-delay: 1s;
   padding: 10px 10px;
   overflow: hidden;
 }
-h1 .rrry{
-  text-align: center;
-  text-transform: uppercase;
-  margin: 10px;
+.rrry {
+   /* Centers the text */
+  text-transform: uppercase; /* Makes text uppercase */
   text-decoration-style: solid;
+  color: gold;
+  text-align: center;
+}
+
+
+.py{
+  width: 700px;
+  margin: 40px 40px 10px 40px; /* Merged redundant margin declarations */
+  color: white; /* Verify this works well against green */
+  max-width: 600px; /* Added unit for validity */
+  padding: 20px; /* Adjusted to a positive value */
+  border-top-right-radius: 0%; /* Retained as is */
+  animation-delay: 1s;
+  font-weight: bolder;
+  font-size: larger;
+  background-color: #007bff;
+  font-family: sans-serif;
+  text-decoration: solid;
+  text-align: center;
 
 }
-.py{
-  color: gold;
-  margin: -10px;
-}
-.hm{
-  text-align: center;
-text-decoration-style: solid;
-}
+
 .pl{
   color:red;
   background-color:white;
@@ -339,13 +351,14 @@ p {
   line-height: 1.5;
 }
 .hm{
-  color: white;
+  color:white;
   font-style: italic;
-  background-color: #007bff;
+  font-family: sans-serif;
+  text-align: left;
+  font-weight: bolder;
+  font-style: italic;
 }
-.rrry{
-  color: gold;
-}
+
 .service-page {
   display: flex;
   flex-direction: column;
