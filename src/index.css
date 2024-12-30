@@ -26,18 +26,22 @@ input, textarea {
 textarea {
   height: 100px;
 }
-.amin{
+.amin {
   width: 700px;
   margin: 40px 40px 10px 40px; /* Merged redundant margin declarations */
-  color: white; /* Verify this works well against green */
-  max-width: 600px; /* Added unit for validity */
-  padding: 20px; /* Adjusted to a positive value */
+  color: white; /* Ensure it contrasts well with the background */
+  max-width: 600px; /* Valid unit */
+  padding: 20px; /* Positive value for spacing */
   border-top-right-radius: 0%; /* Retained as is */
   animation-delay: 1s;
   font-weight: bolder;
-  font-size: larger;
-  background-color: purple;
+  font-size: larger; /* Adjusted for readability */
+  
+  /* Corrected background color */
+  background-color: hsla(221, 51%, 51%, 0.7); /* Proper use of hsla */
+  opacity: 1; /* Ensure text remains fully visible */
 }
+
 /* Button styling */
 button {
   padding: 10px 20px;
@@ -120,17 +124,23 @@ a{
   color:blue;
 }
 .ppp {
-  width: 700px;
+  width: 900px;
   margin: 40px 40px 10px 40px; /* Merged redundant margin declarations */
-  color: white; /* Verify this works well against green */
-  max-width: 600px; /* Added unit for validity */
-  padding: 20px; /* Adjusted to a positive value */
+  color: white; /* Ensures visibility against a darker background */
+  max-width: 600px; /* Valid unit */
+  padding: 20px; /* Positive value for spacing */
   border-top-right-radius: 0%; /* Retained as is */
   animation-delay: 1s;
   font-weight: bolder;
-  font-size: larger;
-  background-color: #007bff;
+  font-size: larger; /* Adjust for readability */
+  
+  /* Background with transparency */
+  background-color: rgba(51, 51, 51, 0.7); /* Darker transparent gray */
+  opacity: 1; /* Ensures text remains fully opaque */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Slight shadow for text */
+
 }
+
 
 .im{
   width: 250px;
