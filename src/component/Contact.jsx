@@ -1,7 +1,7 @@
 
 const ContactPage = () => {
   return (
-    <div className="contactc">
+    <div id="contact" className="contactc">
       <h1>Contact Us</h1>
       <p>We would love to hear from you! Please reach out to us using the form below:</p>
       <form className="contact-form">

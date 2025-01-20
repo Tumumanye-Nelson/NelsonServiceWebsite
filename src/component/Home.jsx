@@ -1,10 +1,13 @@
-
+import About from "./About";
+import Contact from "./Contact"
+import Service from "./Service"
+import Login from "./Login"
 function Home() {
  
  
 
   return (
-    <div className="Home" >
+    <div className="Home" id="home">
       <div>
         <h1 className="amin">
           Welcome to Nelson Services<br />
@@ -29,6 +32,19 @@ function Home() {
         alt="A welcoming space for making new friends"
         className="im"
       />
+      
+      <div id="about">
+        <About/>
+      </div>
+      <div id="contact">
+       <Contact/>
+      </div>
+      <div id="service">
+         <Service/>
+      </div>
+      <div id="login">
+        <Login/>
+      </div>
     </div>
   );
 }

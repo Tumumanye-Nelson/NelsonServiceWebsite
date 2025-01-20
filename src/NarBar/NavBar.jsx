@@ -1,31 +1,33 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import styles from "./NavBar.module.css";
+
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div>
-        <Link to="/">Logo</Link>
+        <Link to="home" smooth={true} duration={300}>Logo</Link>
       </div>
       <div>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="home" smooth={true} duration={300}>Home</Link>
           </li>
           <li>
-            <Link to="/About">About</Link>
+            <Link to="about" smooth={true} duration={300}>About</Link>
           </li>
           <li>
-            <Link to="/Contact">Contact</Link>
+            <Link to="contact" smooth={true} duration={300}>Contact</Link>
           </li>
           <li>
-            <Link to="/Service">Service</Link>
-          </li> <li>
-            <Link to="/Login">Login</Link>
+            <Link to="service" smooth={true} duration={300}>Service</Link>
           </li>
-
+          <li>
+            <Link to="login" smooth={true} duration={300}>Login</Link>
+          </li>
         </ul>
       </div>
     </nav>
   );
 };
+
 export default Navbar;

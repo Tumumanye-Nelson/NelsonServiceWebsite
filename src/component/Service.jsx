@@ -8,7 +8,7 @@ const services = [
 
 const Service = () => {
   return (
-    <div className="service-page">
+    <div id="service"  className="service-page">
       <h1 className="hi2">Our Services</h1>
       <p>We offer a wide range of services to help your business grow and succeed:</p>
       <div className="services-list">

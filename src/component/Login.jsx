@@ -22,7 +22,7 @@ function Login() {
   };
 
   return (
-    <div style={{ margin: "20px", fontFamily: "Arial, sans-serif" }}>
+    <div id="login" style={{ margin: "20px", fontFamily: "Arial, sans-serif" }}>
       <h2 style={{ textAlign: "center" }}>Login Page</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor="fname">First Name</label>
