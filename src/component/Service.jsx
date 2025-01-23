@@ -9,8 +9,8 @@ const services = [
 const Service = () => {
   return (
     <div id="service"  className="service-page">
-      <h1 className="hi2">Our Services</h1>
-      <p>We offer a wide range of services to help your business grow and succeed:</p>
+      <h1 className="hi2">Our Services page</h1>
+      <p className="p2">We offer a wide range of services to help your business grow and succeed:</p>
       <div className="services-list">
         {services.map((service, index) => (
           <div className="service-card" key={index}>
