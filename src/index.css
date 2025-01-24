@@ -182,11 +182,7 @@ a{
 .about{
   width: 100%;
   min-height: 100vh;
-  background-image: url(../public/about2.jpg);
-  background-position: center;
-  background-size: cover;
-  padding: 10px 10px;
-  overflow: hidden;
+ 
 }
 .rrry {
    /* Centers the text */
@@ -195,15 +191,25 @@ a{
   color: gold;
   text-align: center;
 }
+.about12{
+  padding: 10px;
+  margin: 10px;
 
+}
+.about12 h1{
+  text-align: center;
+  color: #ddd;
+  font-weight: 1000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 .py{
-  width: 700px;
-  margin: 40px 40px 10px 40px; /* Merged redundant margin declarations */
-  color: white; /* Verify this works well against green */
-  max-width: 600px; /* Added unit for validity */
-  padding: 20px; /* Adjusted to a positive value */
-  border-top-right-radius: 0%; /* Retained as is */
+  width: 500px;
+  margin: 40px 0px ; 
+  color: white; 
+  max-width: 600px; 
+  padding: 20px; 
+  border-top-right-radius: 0%;
   animation-delay: 1s;
   font-weight: bolder;
   font-size: larger;
@@ -211,6 +217,9 @@ a{
   font-family: sans-serif;
   text-decoration: solid;
   text-align: center;
+  position: absolute;
+  right: 0;
+  
 
 }
 
@@ -375,14 +384,7 @@ p {
   margin-bottom: 30px;
   line-height: 1.5;
 }
-.hm{
-  color:white;
-  font-style: italic;
-  font-family: sans-serif;
-  text-align: left;
-  font-weight: bolder;
-  font-style: italic;
-}
+
 
 .service-page {
   display: flex;
@@ -419,3 +421,93 @@ p {
   color: #000;
   font-weight: 1000;
 }
+
+#login{
+   margin: "20px";
+   font-family: "Arial, sans-serif, color";
+   color: white;
+   font-weight: 1000;
+}
+.buttonStyle{
+  padding: "10px 20px";
+  cursor: "pointer";
+ background-color: "#007BFF";
+  color: "#fff";
+  border: "none";
+  border-radius: "4px";
+  font-size: "16px";
+}
+.textareaStyle{
+  height: "100px";
+ 
+}
+.inputStyle{
+  display: "block";
+  margin: "10px 0";
+  padding: "8px";
+  width: "100%";
+  border: "1px solid #ccc";
+  border-radius: "4px";
+}
+/* General styles for sections */
+.full-section {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+/* Add a background color for each section */
+#about {
+  background-color: #6c757d; /* Gray */
+}
+.image-column {
+  display:flex;
+  flex-direction: column; /* Arrange items in a column */
+  gap: 30px; /* Space between images */
+}
+
+.imgg {
+  width: 200px; /* Set image size */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Optional: rounded corners */
+  border: 2px solid #ddd; /* Optional: border around images */
+}
+
+.imgg:hover {
+  transform: scale(1.05); /* Optional: slight zoom effect */
+  transition: transform 0.3s ease;
+}
+
+#contact {
+  background-color: #007bff; /* Blue */
+}
+
+#service {
+  background-color: #28a745; /* Green */
+}
+
+#login {
+  background-color: #ffc107; /* Yellow */
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+.imgg{
+  width: 100;
+   height:200px;
+  
+}
+.i{
+  padding: 0px;
+  margin: 0px;
+  
+
+}
+
+

@@ -22,7 +22,7 @@ function Login() {
   };
 
   return (
-    <div id="login" style={{ margin: "20px", fontFamily: "Arial, sans-serif" }}>
+    <div id="login" >
       <h2 style={{ textAlign: "center" }}>Login Page</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor="fname">First Name</label>
@@ -41,7 +41,7 @@ function Login() {
           id="lname"
           name="lastname"
           placeholder="Your last name..."
-          style={inputStyle}
+          className="inputStyle"
           required
         />
 
@@ -50,7 +50,7 @@ function Login() {
           id="location"
           name="location"
           placeholder="Describe your location..."
-          style={textareaStyle}
+          className="textareaStyle"
           required
         ></textarea>
 
@@ -59,12 +59,12 @@ function Login() {
           id="issue"
           name="issue"
           placeholder="Describe the issue..."
-          style={textareaStyle}
+          className="textareaStyle"
           required
         ></textarea>
 
         <div style={{ textAlign: "center", marginTop: "20px" }}>
-          <button type="submit" style={buttonStyle}>
+          <button type="submit" className="buttonStyle">
             Submit
           </button>
         </div>
@@ -80,21 +80,6 @@ const inputStyle = {
   width: "100%",
   border: "1px solid #ccc",
   borderRadius: "4px",
-};
-
-const textareaStyle = {
-  ...inputStyle,
-  height: "100px",
-};
-
-const buttonStyle = {
-  padding: "10px 20px",
-  cursor: "pointer",
-  backgroundColor: "#007BFF",
-  color: "#fff",
-  border: "none",
-  borderRadius: "4px",
-  fontSize: "16px",
 };
 
 export default Login;
