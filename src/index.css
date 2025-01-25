@@ -30,11 +30,11 @@ textarea {
 }
 .amin {
   width: 700px;
-  margin: 40px 40px 10px 40px; /* Merged redundant margin declarations */
-  color: white; /* Ensure it contrasts well with the background */
-  max-width: 600px; /* Valid unit */
-  padding: 20px; /* Positive value for spacing */
-  border-top-right-radius: 0%; /* Retained as is */
+  margin: 40px 40px 10px 40px; 
+  color: white;
+  max-width: 600px;
+  padding: 20px; 
+  border-top-right-radius: 0%; 
   animation-delay: 1s;
   font-weight: bolder;
   font-size: larger; /* Adjusted for readability */
