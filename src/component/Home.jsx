@@ -9,7 +9,9 @@ function Home() {
   return (
     <div className="Home" id="home">
       {/* Main Section */}
-      <section>
+      <div className="page144">
+        <h1>Home page</h1>
+        </div>     <section>
         <h1 className="amin">
           Welcome to Nelson Services<br />
           A place where new friendships<br />
