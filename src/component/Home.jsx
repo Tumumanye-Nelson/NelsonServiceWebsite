@@ -4,25 +4,22 @@ const About = lazy(() => import("./About"));
 const Contact = lazy(() => import("./Contact"));
 const Service = lazy(() => import("./Service"));
 const Login = lazy(() => import("./Login"));
+import video from '../assets/y2mate.com - Website Presentation Mockup Video  After Effects Template_360p.mp4'
 
 function Home() {
   return (
-    <div className="Home" id="home">
-      {/* Main Section */}
-      <div className="page144">
-        <h1>Home page</h1>
-        </div>     <section>
-        <h1 className="amin">
-          Welcome to Nelson Services<br />
-          A place where new friendships<br />
-          are created
-        </h1>
-        <p className="ppp">...</p>
-        <button className="aaa">Login Please</button>
-      </section>
+    <div className="homey" id="home">
+     <div className="welcome-text">
 
-      {/* Sections with Lazy Loading */}
+</div>
+<video  src={video} autoPlay loop muted></video>
+ 
+   
+      
+      
+       
       <Suspense fallback={<div>Loading...</div>}>
+    
         <section id="about">
           <About />
         </section>

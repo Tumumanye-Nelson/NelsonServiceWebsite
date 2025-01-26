@@ -1,3 +1,34 @@
+/* Home page container */
+.homey {
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+
+/* Video background */
+.homey video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  top: 0;
+  left: 0;
+  z-index: 1; /* Sends the video behind the content */
+}
+
+/* Content on top of the video */
+.homey .content {
+  position: relative;
+  z-index: 1; /* Ensures the content appears above the video */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Full height of the viewport */
+  text-align: center;
+  color: white; /* Optional: makes the text more visible on the video */
+  font-size: 2rem;
+}
 
 
 
@@ -28,21 +59,7 @@ input, textarea {
 textarea {
   height: 100px;
 }
-.amin {
-  width: 700px;
-  margin: 40px 40px 10px 40px; 
-  color: white;
-  max-width: 600px;
-  padding: 20px; 
-  border-top-right-radius: 0%; 
-  animation-delay: 1s;
-  font-weight: bolder;
-  font-size: larger; /* Adjusted for readability */
-  
-  /* Corrected background color */
-  background-color: hsla(221, 51%, 51%, 0.7); /* Proper use of hsla */
-  opacity: 1; /* Ensure text remains fully visible */
-}
+
 
 /* Button styling */
 button {
@@ -74,34 +91,8 @@ button:hover {
   position: relative;
 }
 /* home*/
-.Home{
-  width: 100%;
-  min-height: 100vh;
-  background-image: url(images/Home2.jpg);
-  background-position: center;
-  background-size: cover;
-  padding: 10px 10px;
-  overflow: hidden;
-  
-}
-.page144 h1{
 
-  color:red;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 1000;
-  padding: 10px;
-  margin: 10px;
-}aa{
-  color:white;
- margin: 30px;
- padding: 30px;
-  font-size: 4em;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #007bff;
-}
+
 .p12{
   color:white;
   text-align: center;
@@ -124,44 +115,7 @@ a{
   border-top-right-radius: 0%;
   padding: 10px;
 }
-.aaa{
- 
-  text-decoration: none;
 
-  color:white;
-  background-image:linear-gradient(45deg,red,red);
-  font-size: 14px;
-  
-  border-radius: 50px;
-  border-top-right-radius: 0%;
-  padding: 20px 10px;
-  margin: 10px;
-  transition: 0.5s;
-  animation-delay: 0.5s;
-
- 
-}
-.aaa:hover{
-  cursor: pointer;
-  color:blue;
-}
-.ppp {
-  width: 900px;
-  margin: 40px 40px 10px 40px; /* Merged redundant margin declarations */
-  color: white; /* Ensures visibility against a darker background */
-  max-width: 600px; /* Valid unit */
-  padding: 20px; /* Positive value for spacing */
-  border-top-right-radius: 0%; /* Retained as is */
-  animation-delay: 1s;
-  font-weight: bolder;
-  font-size: larger; /* Adjust for readability */
-  
-  /* Background with transparency */
-  background-color: rgba(51, 51, 51, 0.7); /* Darker transparent gray */
-  opacity: 1; /* Ensures text remains fully opaque */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Slight shadow for text */
-
-}
 
 
 .im{
