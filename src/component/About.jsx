@@ -1,4 +1,3 @@
-
 function About() {
   return (
     <div id="about" className="about">
@@ -6,6 +5,17 @@ function About() {
         <div className="about12">
           <h1>About Page</h1>
         </div>
+
+        {/* Move the images section below the paragraph */}
+        <div className="image-column">
+          <h1 className="rrry">What we do best</h1>
+          <div className="image-gallery">
+            <img src="src/photo/designer.jpg" alt="Designer" className="imgg" />
+            <img src="src/photo/desin2.jpg" alt="Design 2" className="imgg" />
+            <img src="src/photo/hello.jpg" alt="Hello" className="imgg" />
+            <img src="src/photo/pex.jpg" alt="Pex" className="imgg" />
+          </div>
+
         <p className="py">
           We deliver awesome designs and fully responsive static
           <br />
@@ -15,12 +25,7 @@ function About() {
           <br />
           jet-fast, fully mobile-optimized, responsive, and SEO-friendly websites.
         </p>
-        <div className="image-column">
-          <h1 className="rrry">What we do best</h1>
-          <img src="src/photo/designer.jpg" alt="Designer" className="imgg" />
-          <img src="src/photo/desin2.jpg" alt="Design 2" className="imgg" />
-          <img src="src/photo/hello.jpg" alt="Hello" className="imgg" />
-          <img src="src/photo/pex.jpg" alt="Pex" className="imgg" />
+
         </div>
       </div>
     </div>
