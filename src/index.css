@@ -142,6 +142,7 @@ out{
   min-height: 100vh;
  
 }
+
 .rrry {
    /* Centers the text */
   text-transform: uppercase; /* Makes text uppercase */
@@ -161,16 +162,18 @@ out{
 }
 
 .py {
-  width: 500px;
+  
   margin: 40px auto 30px auto; /* Adds 30px margin below */
-  color: white; 
-  max-width: 600px; 
+  color: grey; 
+  font-weight: 1000;
+font-style: italic;
+font-family: sans-serif;
   padding: 20px; 
   border-top-right-radius: 0%;
   animation-delay: 1s;
   font-weight: bolder;
   font-size: larger;
-  background-color: #007bff;
+  background-color: white;
   font-family: sans-serif;
   text-decoration: solid;
   text-align: center;

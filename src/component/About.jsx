@@ -6,6 +6,8 @@ function About() {
           <h1>About Page</h1>
         </div>
 
+     
+
         {/* Move the images section below the paragraph */}
         <div className="image-column">
           <h1 className="rrry">What we do best</h1>
@@ -15,8 +17,7 @@ function About() {
             <img src="src/photo/hello.jpg" alt="Hello" className="imgg" />
             <img src="src/photo/pex.jpg" alt="Pex" className="imgg" />
           </div>
-
-        <p className="py">
+          <p className="py">
           We deliver awesome designs and fully responsive static
           <br />
           websites for your business capable of being optimized for better search engine visibility
@@ -25,7 +26,6 @@ function About() {
           <br />
           jet-fast, fully mobile-optimized, responsive, and SEO-friendly websites.
         </p>
-
         </div>
       </div>
     </div>
