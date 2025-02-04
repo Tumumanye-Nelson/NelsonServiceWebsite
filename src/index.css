@@ -204,7 +204,11 @@ font-family: sans-serif;
   display: block;
   width: 100%;
   text-align: center;
-
+  display: grid;
+  grid: auto auto / auto auto auto auto;
+  grid-gap: 10px;
+  background-color: green;
+  padding: 10px;
 }
 
 .image-gallery {
