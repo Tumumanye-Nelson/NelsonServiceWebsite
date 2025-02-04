@@ -6,7 +6,26 @@
   position: relative;
 }
 
-
+.welcome {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: white; /* Adjust text color */
+  padding: 20px;
+  background-color: #0056b3;
+  border-radius: 10px;
+  text-align: center;
+}
+.wel ,.we{
+  color:white;
+  padding: 5px;
+  margin: 5px;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 1000;
+}
 /* Video background */
 .homey video {
   width: 100%;
@@ -185,6 +204,7 @@ font-family: sans-serif;
   display: block;
   width: 100%;
   text-align: center;
+
 }
 
 .image-gallery {

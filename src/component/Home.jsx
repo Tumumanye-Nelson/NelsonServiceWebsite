@@ -9,8 +9,9 @@ import video from '../assets/y2mate.com - Website Presentation Mockup Video  Aft
 function Home() {
   return (
     <div className="homey" id="home">
-     <div className="welcome-text">
-
+<div className="welcome ">
+  <h1 className="wel">welcome</h1>
+  <p className="we">This is my page</p>
 </div>
 <video  src={video} autoPlay loop muted></video>
  
