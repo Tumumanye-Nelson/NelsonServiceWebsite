@@ -178,21 +178,21 @@ out{
   color: #ddd;
   font-weight: 1000;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 30px;
 }
 
 .py {
   
   margin: 40px auto 30px auto; /* Adds 30px margin below */
-  color: grey; 
+  color: white; 
   font-weight: 1000;
 font-style: italic;
 font-family: sans-serif;
-  padding: 20px; 
+  padding: 40px; 
   border-top-right-radius: 0%;
   animation-delay: 1s;
   font-weight: bolder;
   font-size: larger;
-  background-color: white;
   font-family: sans-serif;
   text-decoration: solid;
   text-align: center;
