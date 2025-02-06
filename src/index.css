@@ -423,15 +423,23 @@ p {
    color: white;
    font-weight: 1000;
 }
-.buttonStyle{
-  padding: "10px 20px";
-  cursor: "pointer";
- background-color: "#007BFF";
-  color: "#fff";
-  border: "none";
-  border-radius: "4px";
-  font-size: "16px";
+.buttonStyle {
+  padding: 20px 20px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: transform 500ms, background-color 500ms;
 }
+
+.buttonStyle:hover {
+  transform: scale(1.1);
+  background-color: red;
+}
+
+
 .textareaStyle{
   height: "100px";
  
