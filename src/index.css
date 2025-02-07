@@ -120,8 +120,8 @@ button:hover {
   margin: 15px;
   padding: 15px;
   font-weight: 1000;
-  background-color: red;
-
+text-transform: uppercase;
+font-size: 2em;
 }
 a{
   color: red;
@@ -224,15 +224,15 @@ font-family: sans-serif;
   
   
 }
-.contact{
+.contactc{
   width: 100%;
-  min-height: 100vh;
-  background-image: url(images/abc.jpg);
-  background-position: center;
-  background-size: cover;
+  height: 100%;
   padding: 10px 10px;
-  overflow: hidden;
-
+  padding: 20px;
+  max-width: 1000px;
+  margin: 30px;
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
 .contact-container {
   padding: 20px;
@@ -296,6 +296,8 @@ p {
 .social-media h3 {
   font-size: 1.5rem;
   color: #333;
+  margin: 20px;
+  padding: 20px;
 }
 
 .social-icons {
@@ -312,13 +314,6 @@ p {
 
 .social-icons a:hover {
   color: #0056b3;
-}
-.contact {
-  padding: 20px;
-  max-width: 1000px;
-  margin: 0 auto;
-  font-family: Arial, sans-serif;
-  text-align: center;
 }
 
 .contact h1 {
@@ -514,3 +509,6 @@ html {
 }
 
 
+p12{
+
+}
