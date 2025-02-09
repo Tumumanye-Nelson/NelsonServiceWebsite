@@ -1,4 +1,9 @@
 /* Home page container */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .homey {
   background-color: #000;
   width: 100%;
@@ -123,6 +128,7 @@ button:hover {
 text-transform: uppercase;
 font-size: 2em;
 }
+
 a{
   color: red;
   text-decoration: none;
@@ -288,7 +294,15 @@ p {
 .contact-form button:hover {
   background-color: #0056b3;
 }
+.h12{
+  padding: 20px;
+  margin: 0px;
+  color: white;
+  font-weight: 1000;
+  font-family: sans-serif;
+  font-style: italic;
 
+}
 .social-media {
   margin-top: 30px;
 }
@@ -489,7 +503,14 @@ p {
 }
 
 #login {
-  background-color: #ffc107; /* Yellow */
+  background-color: black;
+  width: 100%;
+  margin: 10px;
+  padding: 5px;
+}
+.lo{
+ 
+
 }
 
 /* Smooth scrolling */
@@ -508,7 +529,3 @@ html {
 
 }
 
-
-p12{
-
-}
