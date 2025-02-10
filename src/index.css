@@ -173,60 +173,75 @@ out{
  
 }
 
-.rrry {
-   /* Centers the text */
-  text-transform: uppercase; /* Makes text uppercase */
-  text-decoration-style: solid;
-  color: gold;
+.about12 {
   text-align: center;
-}
-.about12{
-  padding: 10px;
-  margin: 10px;
-}
-.about12 h1{
-  text-align: center;
-  color: #ddd;
-  font-weight: 1000;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 30px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
 }
 
-.py {
-  
-  margin: 40px auto 30px auto; /* Adds 30px margin below */
-  color: white; 
-  font-weight: 1000;
-font-style: italic;
-font-family: sans-serif;
-  padding: 40px; 
-  border-top-right-radius: 0%;
-  animation-delay: 1s;
-  font-weight: bolder;
-  font-size: larger;
-  font-family: sans-serif;
-  text-decoration: solid;
-  text-align: center;
-  display: block; /* Ensures it does not overlap other elements */
-  position: relative; /* Keeps its normal position */
-}
-
-.image-column {
-  display: block;
-  width: 100%;
-  text-align: center;
+/* Grid Layout */
+.about-grid {
   display: grid;
-  grid: auto auto / auto auto auto auto;
-  grid-gap: 10px;
-  background-color: green;
-  padding: 10px;
+  grid-template-columns: 1fr 1fr; /* Two equal sections */
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Image Section */
+.image-section {
+  text-align: center;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: red;
+  text-align: center;
+  font-family: sans-serif;
 }
 
 .image-gallery {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two images per row */
   gap: 10px;
-  justify-content: center;
+}
+
+.imgg {
+  width: 100%;
+  max-width: 150px; /* Small size for better design */
+  border-radius: 0px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.imgg:hover {
+  transform: scale(1.1); /* Smooth hover effect */
+}
+
+/* Text Section */
+.text-section {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr; /* Switch to single-column layout */
+    text-align: center;
+  }
+
+  .text-section {
+    text-align: center;
+   
+  }
+
+  .image-gallery {
+    grid-template-columns: 1fr; /* Single-column images */
+  }
 }
 
 .pl{
@@ -258,11 +273,20 @@ h1 {
   font-size: 2rem;
   margin-bottom: 10px;
 }
+.about12 h1{
+  color: white;
+  margin: 20px;
+  padding: 20px;
+ 
+}
 
 p {
-  color: #666;
+  color: greenyellow;
   font-size: 1.2rem;
   margin-bottom: 20px;
+  font-family: sans-serif;
+  background-color: black;
+  padding: 40px;
 }
 
 .contact-form {
@@ -372,7 +396,7 @@ p {
 
 .service-card p {
   font-size: 1rem;
-  color: #333;
+  color: greenyellow;
   line-height: 1.5;
 }
 
@@ -422,17 +446,18 @@ p {
 .hi2{
   color: white;
   text-align: center ;
-  padding: 20px;
-  margin: 20px;
+  padding: 10px;
+  margin: 10px;
 }
 .p2{
   text-align: center;
-  color: #000;
+  color: white;
   font-weight: 1000;
+  background-color: #28a745;
 }
 
 #login{
-   margin: "20px";
+   margin: 20px;
    font-family: "Arial, sans-serif, color";
    color: white;
    font-weight: 1000;
@@ -513,8 +538,7 @@ p {
   margin: 10px;
   padding: 5px;
 }
-.lo{
- 
+.p12{
 
 }
 
