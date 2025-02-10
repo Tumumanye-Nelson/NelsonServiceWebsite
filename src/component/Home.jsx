@@ -11,7 +11,7 @@ function Home() {
     <div className="homey" id="home">
 <div className="welcome ">
   <h1 className="wel">welcome</h1>
-  <p className="we">This is website design page</p>
+  <div className="we">This is website design page</div>
 </div>
 <video  src={video} autoPlay loop muted></video>
  
