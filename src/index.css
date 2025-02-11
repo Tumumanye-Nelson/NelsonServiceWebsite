@@ -457,10 +457,24 @@ p {
 }
 
 #login{
-   margin: 20px;
+  
    font-family: "Arial, sans-serif, color";
    color: white;
    font-weight: 1000;
+   display: grid;
+   place-items:center;
+   position: absolute;
+   
+}
+.form{
+  padding: 40px;
+  border: 2px solid #ccc;
+  background-color: #0000ff;
+  width: 400px;
+  height: 600px;
+
+
+
 }
 .buttonStyle {
   padding: 20px 20px;
@@ -556,7 +570,4 @@ html {
   margin: 0px;
   
 
-}
-pu{
-  background-color: ;
 }

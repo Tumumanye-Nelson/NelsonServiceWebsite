@@ -6,6 +6,9 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <div>
         <Link to="home" smooth={true} duration={300}>Logo</Link>
+        <Link to="/#/login">
+            <button>Login</button>
+          </Link>
       </div>
       <div>
         <ul>
