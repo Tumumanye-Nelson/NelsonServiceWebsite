@@ -30,9 +30,7 @@ function Home() {
         <section id="service">
           <Service />
         </section>
-        <section id="login">
-          <Login />
-        </section>
+        
       </Suspense>
       <ScrollTopButton/>
     </div>
