@@ -3,7 +3,6 @@ import ScrollTopButton from "./ScrollTopButton";
 const About = lazy(() => import("./About"));
 const Contact = lazy(() => import("./Contact"));
 const Service = lazy(() => import("./Service"));
-const Login = lazy(() => import("./Login"));
 import video from '../assets/y2mate.com - Website Presentation Mockup Video  After Effects Template_360p.mp4'
 
 function Home() {

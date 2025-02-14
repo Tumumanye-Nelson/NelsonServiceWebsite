@@ -1,6 +1,14 @@
+import FormValidation from "../Validation/FormValidation.js"; // Import correctly
+
 function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // Perform form validation
+    if (!FormValidation()) {
+      return; // Stop submission if validation fails (alert already triggered)
+    }
+
     const formData = new FormData(e.target);
     const data = Object.fromEntries(formData.entries());
 
@@ -22,14 +30,14 @@ function Login() {
   };
 
   return (
-    <div id="login" >
-      <h2 style={{ textAlign: "center" ,margin:"10px"}}>Login Page</h2>
-      <form onSubmit={handleSubmit} className="form">
+    <div id="login">
+      <h2 style={{ textAlign: "center", margin: "10px" }}>Login Page</h2>
+      <form onSubmit={handleSubmit} className="form" name="myForm">
         <label htmlFor="fname">First Name</label>
         <input
           type="text"
           id="fname"
-          name="firstname"
+          name="firstname" // Matches validation script
           placeholder="Your name..."
           style={inputStyle}
           required
@@ -64,9 +72,7 @@ function Login() {
         ></textarea>
 
         <div style={{ textAlign: "center", marginTop: "20px" }}>
-          <button type="submit" className="buttonStyle">
-            Submit
-          </button>
+          <button type="submit" className="buttonStyle">Submit</button>
         </div>
       </form>
     </div>
