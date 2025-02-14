@@ -1,4 +1,4 @@
-import { Routes, Route, useNavigate } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import Navbar from "./NarBar/NavBar";
 import Home from "./component/Home";
 import About from "./component/About";
@@ -7,14 +7,12 @@ import Service from "./component/Service";
 import Login from "./component/Login";
 
 function App() {
-  const navigate = useNavigate(); // Hook for navigation
+
 
   return (
     <div>
       {/* Corrected button click handler */}
-      <button onClick={() => navigate("/Login")} className="log">
-        Login
-      </button>
+     
 
       <Navbar />
 
@@ -30,6 +28,7 @@ function App() {
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       />
+  
     </div>
   );
 }

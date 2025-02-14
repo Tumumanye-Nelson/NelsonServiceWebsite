@@ -4,22 +4,27 @@ const About = lazy(() => import("./About"));
 const Contact = lazy(() => import("./Contact"));
 const Service = lazy(() => import("./Service"));
 import video from '../assets/y2mate.com - Website Presentation Mockup Video  After Effects Template_360p.mp4'
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate(); // Hook for navigation
+
   return (
     <div className="homey" id="home">
-<div className="welcome ">
-  <h1 className="wel">welcome</h1>
-  <div className="we">This is website design page</div>
-</div>
-<video  src={video} autoPlay loop muted></video>
- 
-   
-      
-      
-       
+      <div className="welcome ">
+        <h1 className="wel">welcome</h1>
+        <div className="we">
+          This is website design page
+          <div className="button2">
+          <button onClick={() => navigate("/Login")} className="log">
+            Login
+          </button>
+          </div>
+        </div>
+      </div>
+      <video src={video} autoPlay loop muted></video>
+
       <Suspense fallback={<div>Loading...</div>}>
-    
         <section id="about">
           <About />
         </section>
@@ -29,9 +34,8 @@ function Home() {
         <section id="service">
           <Service />
         </section>
-        
       </Suspense>
-      <ScrollTopButton/>
+      <ScrollTopButton />
     </div>
   );
 }
