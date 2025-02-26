@@ -215,13 +215,25 @@ out{
 .image-section {
   text-align: center;
 }
+.py{
+  margin: 30px;
+  padding: 30px;
+}
 
 .section-title {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
   color: red;
   text-align: center;
   font-family: sans-serif;
+  line-height: 2.5;
+  letter-spacing: -1.5;
+  font-weight: 700;
+  padding: 10px;
+  margin: 5px;
+}
+ .oy{
+  color: #007bff;
 }
 
 .image-gallery {
@@ -590,5 +602,8 @@ html {
   padding: 0px;
   margin: 0px;
   
+
+}
+.section-title{
 
 }
