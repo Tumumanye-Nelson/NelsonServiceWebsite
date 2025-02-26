@@ -214,6 +214,13 @@ out{
 /* Image Section */
 .image-section {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+  padding: 20px;
+  margin: 20px;
+  flex-wrap: wrap;
+ 
 }
 .py{
   margin: 30px;
@@ -604,6 +611,6 @@ html {
   
 
 }
-.section-title{
+.image-section{
 
 }
