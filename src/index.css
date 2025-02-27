@@ -144,6 +144,8 @@ button:hover {
 
 
 .p12{
+  letter-spacing: -1.4;
+  font-weight: 400;
   color:black;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -367,8 +369,11 @@ p {
   padding: 20px;
   margin: 0px;
   color: white;
-  font-weight: 1000;
   font-family: sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  line-height: -1.6;
+  line-height: 1.2;
   font-style: italic;
 
 }
@@ -611,6 +616,6 @@ html {
   
 
 }
-.image-section{
+.h12{
 
 }
