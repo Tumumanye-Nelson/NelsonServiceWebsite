@@ -1,7 +1,7 @@
 /* NavBar.module.css */
 .navbar {
   background-color: white;
-  padding: 1rem;
+  padding: 1.3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,20 +11,26 @@
   top: 0;
   z-index: 1000;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color:green;
 }
 
 .navbar ul {
   list-style: none;
   display: flex;
   gap: 1rem;
+  
+  
 }
 
 .navbar li {
   list-style: none;
+  
 }
 
 .navbar a {
-  color: black;
+  
+
+  color: blue;
   text-decoration: none;
 }
 
@@ -40,3 +46,4 @@ color: red;
 .navbar a:active {
   color: green;
 }
+
