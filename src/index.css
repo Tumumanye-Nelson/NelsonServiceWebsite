@@ -146,12 +146,12 @@ button:hover {
 .p12{
   letter-spacing: -1.4;
   font-weight: 400;
-  color:black;
+  color:blue;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1em;
-  margin: 15px;
-  padding: 15px;
+  margin: 25px;
+  padding: 25px;
   font-weight: 1000;
 text-transform: uppercase;
 font-size: 1em;
@@ -301,6 +301,11 @@ out{
   margin: 30px;
   font-family: Arial, sans-serif;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .contact-container {
   padding: 20px;
@@ -308,6 +313,7 @@ out{
   margin: 0 auto;
   font-family: Arial, sans-serif;
   text-align: center;
+  
 }
 
 h1 {
@@ -336,20 +342,28 @@ p {
   flex-direction: column;
   gap: 15px;
   margin-bottom: 30px;
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
 }
 
 .contact-form label {
   text-align: left;
   font-weight: bold;
+  color: blue;
 }
 
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
+  background-color: white;
 }
 
 .contact-form button {
@@ -366,17 +380,19 @@ p {
   background-color: #0056b3;
 }
 .h12{
-  padding: 20px;
+  padding: 0px;
   margin: 0px;
-  color: white;
+  color: grey;
   font-family: sans-serif;
   font-style: italic;
   font-weight: 900;
-  line-height: -1.6;
-  line-height: 1.2;
+  line-height: -1.2;
   font-style: italic;
+  font-weight: 800;
+  
 
 }
+
 .social-media {
   margin-top: 30px;
 }
@@ -563,7 +579,7 @@ p {
 
 /* Add a background color for each section */
 #about {
-  background-color: #6c757d; /* Gray */
+  background-color: grey; /* Gray */
 }
 .image-column {
   display:flex;
@@ -597,9 +613,7 @@ p {
   margin: 10px;
   padding: 5px;
 }
-.p12{
 
-}
 
 /* Smooth scrolling */
 html {
@@ -616,6 +630,6 @@ html {
   
 
 }
-.h12{
+.p12{
 
 }
