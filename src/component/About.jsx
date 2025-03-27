@@ -24,7 +24,9 @@ function About() {
             capable of being optimized for better search engine visibility so that you can get
             highly ranked in all search engines. Our team also develops user-friendly, 
             jet-fast, fully mobile-optimized, responsive, and SEO-friendly websites.
+            <pre className="pred">Thanks for making  us  your first choice </pre>
           </p>
+      
         </div>
       </div>
     </div>

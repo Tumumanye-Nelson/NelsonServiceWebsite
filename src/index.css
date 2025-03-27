@@ -327,6 +327,12 @@ h1 {
   padding: 20px;
  
 }
+.pred{
+  font-style: italic;
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+}
 
 p {
   color: greenyellow;
