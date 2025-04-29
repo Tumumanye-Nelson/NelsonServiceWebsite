@@ -330,12 +330,15 @@ h1 {
 .pred{
   font-style: italic;
   margin: 10px;
-  color: white;
-  font-size: 20px;
+  color: yellow;
+ 
+  font-size: 26px;
+  letter-spacing: -3;
+
 }
 
 p {
-  color: greenyellow;
+  color: white;
   font-size: 1.2rem;
   margin-bottom: 20px;
   font-family: sans-serif;
