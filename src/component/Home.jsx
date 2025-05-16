@@ -14,7 +14,9 @@ function Home() {
       <div className="welcome ">
         <h1 className="wel">welcome</h1>
         <div className="we">
-          This is website design page
+         <pre>This is website design site for you,
+         visit it to acquire for your website development
+          </pre> 
           <div className="button2">
           <button onClick={() => navigate("/Login")} className="log">
             Login
