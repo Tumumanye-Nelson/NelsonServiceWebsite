@@ -28,22 +28,24 @@
 }
 
 .navbar a {
-  
-
-  color: blue;
-  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+font-weight: 500;
+font-size: 16px;
+letter-spacing: -1px;
+color: blue;
+text-decoration: none;
 }
 
 .navbar a:hover {
-  cursor: pointer;
+cursor: pointer;
 color: red;
 }
 
-.navbar a:visited {
+.navbar a:visited,a:link {
   color: blue;
 }
 
 .navbar a:active {
-  color: green;
+  color: red;
 }
 
