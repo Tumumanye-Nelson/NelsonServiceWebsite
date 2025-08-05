@@ -243,6 +243,11 @@ out{
 }
  .oy{
   color: #007bff;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: -1.6px;
+ 
 }
 
 .image-gallery {
@@ -290,7 +295,7 @@ out{
   color:red;
   background-color:white;
   
-  
+ 
 }
 .contactc{
   width: 100%;
