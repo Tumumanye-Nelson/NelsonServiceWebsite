@@ -60,7 +60,7 @@ box-sizing: border-box;
 /* Video background */
 .homey video {
   width: 100%;
-  height: 100%;
+  height: 100%;.p12
   object-fit: cover; 
   top: 0;
   left: 0;
@@ -148,13 +148,16 @@ button:hover {
   font-weight: 400;
   color:blue;
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: cursive;
   font-size: 1em;
   margin: 25px;
   padding: 25px;
   font-weight: 1000;
 text-transform: uppercase;
-font-size: 1em;
+font-size: 1.4em;
+line-height: 1.6;
+
+
 }
 
 a{
@@ -201,6 +204,7 @@ out{
   padding: 20px;
   max-width: 1000px;
   margin: auto;
+  background-color: rgb(122, 200, 200);
 }
 
 /* Grid Layout */
@@ -247,6 +251,8 @@ out{
   margin: 0px;
   padding: 0px;
   letter-spacing: -1.6px;
+  font-size: 40px;
+  font-family:cursive;
  
 }
 
@@ -311,6 +317,7 @@ out{
   justify-content: center;
   align-items: center;
   text-align: center;
+ 
 }
 .contact-container {
   padding: 20px;
@@ -318,6 +325,7 @@ out{
   margin: 0 auto;
   font-family: Arial, sans-serif;
   text-align: center;
+ 
   
 }
 
@@ -363,7 +371,7 @@ p {
   margin: 20px;
   padding: 20px;
 }
-
+p12
 .contact-form label {
   text-align: left;
   font-weight: bold;
@@ -396,13 +404,17 @@ p {
 .h12{
   padding: 0px;
   margin: 0px;
-  color: grey;
-  font-family: sans-serif;
+  color: purple;
+  font-family: cursive;
   font-style: italic;
   font-weight: 900;
   line-height: -1.2;
   font-style: italic;
   font-weight: 800;
+  font-size: 50px;
+
+
+
   
 
 }
@@ -591,10 +603,7 @@ p {
   color: white;
 }
 
-/* Add a background color for each section */
-#about {
-  background-color: grey; /* Gray */
-}
+
 .image-column {
   display:flex;
   flex-direction: column; /* Arrange items in a column */
@@ -614,7 +623,7 @@ p {
 }
 
 #contact {
-  background-color: limegreen; /* Blue */
+  background-color:rgb(220, 240, 255); /* Blue */
 }
 
 #service {
