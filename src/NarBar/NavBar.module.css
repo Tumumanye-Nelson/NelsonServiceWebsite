@@ -1,6 +1,5 @@
 /* NavBar.module.css */
 .navbar {
-  background-color: white;
   padding: 1.3rem;
   display: flex;
   justify-content: space-between;
@@ -11,7 +10,7 @@
   top: 0;
   z-index: 1000;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color:green;
+  background-color: blueviolet;
 }
 
 .navbar ul {
@@ -28,11 +27,11 @@
 }
 
 .navbar a {
-  font-family: 'Courier New', Courier, monospace;
-font-weight: 500;
-font-size: 16px;
-letter-spacing: -1px;
-color: blue;
+  padding: 15px;
+font-weight: 600;
+font-size: 19px;
+letter-spacing: -1.4px;
+color: #092de2;
 text-decoration: none;
 }
 

@@ -21,15 +21,20 @@ body {
   position: relative;
 }
 .button2{
-  padding: 10px;
+  padding: 30px;
   margin: 10px;
+  
 }
 .button2 button{
-  background-color: red;
-  font-style: italic;
-  font-weight: 1000;
+  background-color: blue;
+  font-weight: 900;
   position: relative;
-  bottom: -40px;
+    padding: 40px;
+  bottom: -10px;
+  border-radius: 50%;
+  font-size: 17px;
+letter-spacing: -1px;
+
 }
 .button2 button:hover{
   background-color: #28a745;
@@ -274,7 +279,6 @@ out{
 
  
 }
-
 .image-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two images per row */
@@ -528,15 +532,13 @@ p12
 }
 
 .services-list {
-  flex-grow: 1; /* Pushes the login section to the bottom */
+  flex-grow: 1; /* Pushes th}in section to the bottom */
 }
-
-.login-section {
-  margin-top: auto; /* Pushes the Login component to the bottom */
+}in-section {
+  margin-top: auto; /* Pushes th}in component to the bottom */
   padding: 2rem;
   background-color: #f4f4f4; /* Optional: add a background for better visibility */
-}
-.loginn{
+}}inn{
   text-transform: uppercase;
  text-align: center;
  margin: 50px;
@@ -557,8 +559,7 @@ p12
   font-weight: 1000;
   background-color: #28a745;
 }
-
-#login{
+}in{
   
    color: white;
    font-weight: 1000;
@@ -643,8 +644,7 @@ p12
 #service {
   background-color: #28a745; /* Green */
 }
-
-#login {
+}in {
   background-color: black;
   width: 100%;
   margin: 10px;
