@@ -12,10 +12,10 @@ function Home() {
   return (
     <div className="homey" id="home">
       <div className="welcome ">
-        <h1 className="wel">welcome</h1>
+        <h1 className="wel">welcome </h1>
         <div className="we">
          <pre>This is website design site for you,
-         visit it to acquire for your website development
+         visit it to acquire <br></br>for your website development
           </pre> 
           <div className="button2">
           <button onClick={() => navigate("/Login")} className="log">

@@ -5,9 +5,14 @@
   
 box-sizing: border-box;
 }
+body {
+  font-family: 'Poppins', sans-serif;
+}
 *{
   margin: 0;
   padding: 0;
+   font-family: 'Poppins', sans-serif;
+
 }
 .homey {
   background-color: #000;
@@ -21,7 +26,6 @@ box-sizing: border-box;
 }
 .button2 button{
   background-color: red;
-  font-family: sans-serif;
   font-style: italic;
   font-weight: 1000;
   position: relative;
@@ -39,23 +43,40 @@ box-sizing: border-box;
 
 .welcome {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
+  
   transform: translate(-50%, -50%);
   z-index: 2;
   color: white; /* Adjust text color */
   padding: 20px;
-  background-color: #0056b3;
+ 
   border-radius: 10px;
   text-align: center;
+  font-size: 25px;
+ 
+ 
+
 }
-.wel ,.we{
-  color:white;
-  padding: 15px;
-  margin: 5px;
-  font-family: sans-serif;
+.we pre{
+   color:lab(82.14% -78.43 78.23); /* Adjust text color */
+ font-size: 30px;
   font-style: italic;
   font-weight: 1000;
+  font-weight: 600px;
+
+}
+ .wel{
+   color:lab(58.1% 91.96 -55.59); /* Adjust text color */
+font-size: 72px;
+  padding: 15px;
+  margin: 5px;
+  
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: -2px;
+  
 }
 /* Video background */
 .homey video {
@@ -84,7 +105,7 @@ box-sizing: border-box;
 
 .container {
   margin: 20px;
-  font-family: Arial, sans-serif;
+  
 }
 
 /* Label styling */
@@ -137,7 +158,7 @@ button:hover {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+ 
   position: relative;
 }
 /* home*/
@@ -148,7 +169,6 @@ button:hover {
   font-weight: 400;
   color:blue;
   text-align: center;
-  font-family: cursive;
   font-size: 1em;
   margin: 25px;
   padding: 25px;
@@ -238,7 +258,6 @@ out{
   text-transform: uppercase;
   color: red;
   text-align: center;
-  font-family: sans-serif;
   line-height: 2.5;
   letter-spacing: -1.5;
   font-weight: 700;
@@ -252,7 +271,7 @@ out{
   padding: 0px;
   letter-spacing: -1.6px;
   font-size: 40px;
-  font-family:cursive;
+
  
 }
 
@@ -310,7 +329,6 @@ out{
   padding: 20px;
   max-width: 1000px;
   margin: 30px;
-  font-family: Arial, sans-serif;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -323,7 +341,6 @@ out{
   padding: 20px;
   max-width: 600px;
   margin: 0 auto;
-  font-family: Arial, sans-serif;
   text-align: center;
  
   
@@ -354,7 +371,6 @@ p {
   color: white;
   font-size: 1.2rem;
   margin-bottom: 20px;
-  font-family: sans-serif;
   background-color: black;
   padding: 40px;
 }
@@ -405,7 +421,6 @@ p12
   padding: 0px;
   margin: 0px;
   color: purple;
-  font-family: cursive;
   font-style: italic;
   font-weight: 900;
   line-height: -1.2;
@@ -545,7 +560,6 @@ p12
 
 #login{
   
-   font-family: "Arial, sans-serif, color";
    color: white;
    font-weight: 1000;
    display: grid;
